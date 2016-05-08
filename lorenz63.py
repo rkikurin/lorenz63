@@ -24,9 +24,9 @@ f=open('data.csV','w')
 writer = csv.writer(f,lineterminator='\n')
 
 #define initial
-xt[0] = 5.81797312611
-yt[0] = -5.03517042808 
-zt[0] =  25.0706173063
+xt[0] = 5.0
+yt[0] = -5.0
+zt[0] =  25.0
 
 # Forward time step
 for i in range(step):
